@@ -1,0 +1,28 @@
+{
+  "name": "nexora-gaming",
+  "version": "6.0.0",
+  "private": true,
+  "description": "Loja gamer demonstrativa com catálogo inteligente, favoritos, Setup Lab e temas claro e escuro.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "gaming",
+    "frutiger-aero",
+    "liquid-glass",
+    "projeto-escolar",
+    "animejs",
+    "web-audio",
+    "favoritos",
+    "setup-lab",
+    "microinteracoes"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "type": "module"
+}

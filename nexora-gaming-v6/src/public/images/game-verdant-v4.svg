@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Verdant Odyssey</title>
+  <desc id="desc">Capa original de uma aventura indie em ilhas verdes flutuando sobre um mar azul claro.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#baf7f4"/><stop offset=".53" stop-color="#72dce3"/><stop offset="1" stop-color="#359fc9"/></linearGradient>
+    <linearGradient id="island" x2="0" y2="1"><stop stop-color="#b6ee9a"/><stop offset=".48" stop-color="#48b58f"/><stop offset="1" stop-color="#177f8d"/></linearGradient>
+    <linearGradient id="water" x2="0" y2="1"><stop stop-color="#8af1e5"/><stop offset="1" stop-color="#258dbd"/></linearGradient>
+    <radialGradient id="sun"><stop stop-color="#fff"/><stop offset=".3" stop-color="#fff8ca" stop-opacity=".92"/><stop offset="1" stop-color="#fff8ca" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="1120" rx="42" fill="url(#sky)"/>
+  <circle cx="686" cy="245" r="178" fill="url(#sun)"/>
+  <g fill="#fff" opacity=".72"><ellipse cx="194" cy="276" rx="105" ry="24"/><ellipse cx="236" cy="258" rx="59" ry="31"/><ellipse cx="279" cy="277" rx="65" ry="21"/><ellipse cx="629" cy="402" rx="72" ry="18"/><ellipse cx="662" cy="388" rx="42" ry="22"/></g>
+  <path d="M0 640c145-42 274-37 425 0s315 41 475-4v484H0z" fill="url(#water)"/>
+  <path d="M0 742c144-34 277-23 419 10 180 42 324 32 481-6v61c-157 42-319 48-489 8-134-31-265-44-411-8z" fill="#d3fff0" opacity=".36"/>
+  <g>
+    <path d="M115 539c51-84 148-124 270-116 120 8 207 58 264 116l-72 91c-115 43-280 46-399 0z" fill="url(#island)" stroke="#e4fff2" stroke-width="6"/>
+    <path d="M192 520c44-43 110-71 194-70 79 1 143 24 194 68-107 31-273 35-388 2z" fill="#a9ea91"/>
+    <path d="M241 509c17-53 34-82 64-114m222 112c-12-51-34-81-67-111m-94 109c-2-77 5-117 33-154" fill="none" stroke="#268e72" stroke-width="18" stroke-linecap="round"/>
+    <g fill="#2a9b72"><circle cx="290" cy="379" r="60"/><circle cx="366" cy="357" r="71"/><circle cx="465" cy="390" r="66"/><circle cx="554" cy="425" r="54"/></g>
+    <g fill="#92e382"><circle cx="271" cy="360" r="31"/><circle cx="354" cy="333" r="37"/><circle cx="447" cy="367" r="32"/><circle cx="535" cy="403" r="28"/></g>
+    <path d="M374 484v-95l37-35 39 35v95" fill="#e8d7a3" stroke="#fff4d0" stroke-width="6"/>
+    <path d="M361 398h101l-51-55z" fill="#f3a477"/>
+    <rect x="402" y="428" width="19" height="56" rx="9" fill="#78c8bd"/>
+  </g>
+  <path d="M133 667c67 31 118 33 185 2m164 11c71 25 133 24 197-6" fill="none" stroke="#effff4" stroke-width="10" stroke-linecap="round" opacity=".58"/>
+  <g fill="#faffdc"><circle cx="130" cy="433" r="6"/><circle cx="751" cy="560" r="5"/><path d="M701 330h4v30h-4zM688 343h30v4h-30z"/></g>
+  <text x="62" y="120" fill="#236c78" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="8">NEXORA ORIGINALS</text>
+  <text x="60" y="922" fill="#fff" font-family="Arial,sans-serif" font-size="70" font-weight="900" letter-spacing="-3">VERDANT</text>
+  <text x="65" y="975" fill="#e5fff0" font-family="Arial,sans-serif" font-size="35" font-weight="800" letter-spacing="8">ODYSSEY</text>
+  <path d="M65 1008h235" stroke="#d6fff3" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+</svg>

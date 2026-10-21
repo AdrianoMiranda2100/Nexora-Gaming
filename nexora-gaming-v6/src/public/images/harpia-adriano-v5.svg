@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-labelledby="title desc">
+  <title id="title">Águia-harpia do Adriano</title>
+  <desc id="desc">Retrato vetorial estilizado de uma águia-harpia, com penacho escuro, olhos dourados e bico curvo.</desc>
+  <defs>
+    <radialGradient id="halo" cx="35%" cy="25%"><stop stop-color="#f8fff0"/><stop offset=".48" stop-color="#87e7d4"/><stop offset="1" stop-color="#176f91"/></radialGradient>
+    <linearGradient id="feather" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#42536a"/><stop offset=".55" stop-color="#1e3047"/><stop offset="1" stop-color="#111c31"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff7d9"/><stop offset=".5" stop-color="#e8e2ce"/><stop offset="1" stop-color="#aab5bd"/></linearGradient>
+    <linearGradient id="beak" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe47d"/><stop offset=".55" stop-color="#e6a83d"/><stop offset="1" stop-color="#8f5429"/></linearGradient>
+    <filter id="shadow" x="-.2" y="-.2" width="1.4" height="1.5"><feDropShadow dx="0" dy="17" stdDeviation="15" flood-color="#073d57" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="480" height="480" rx="58" fill="#102a40"/>
+  <circle cx="237" cy="227" r="213" fill="url(#halo)"/>
+  <circle cx="237" cy="227" r="184" fill="none" stroke="#edfff5" stroke-opacity=".44" stroke-width="2"/>
+  <path d="M48 372c49-73 114-103 191-103s143 30 193 103v108H48z" fill="#19384b" opacity=".65"/>
+  <g filter="url(#shadow)">
+    <path d="M131 190 91 85l91 52 16-102 51 95 61-86-3 113 108-29-78 90c4 33-1 83-28 117-20 26-49 43-90 48-51-6-86-32-106-73-18-36-18-84-3-119z" fill="url(#feather)" stroke="#d8fff0" stroke-opacity=".58" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M180 197c19-29 49-44 82-44 35 0 66 16 84 46l-7 119c-19 41-47 64-79 71-39-9-67-36-81-75z" fill="url(#face)"/>
+    <path d="M199 203c-26 6-42 20-54 42 7 38 25 70 51 89l11-46zm127 0c25 6 41 20 53 42-7 38-24 70-50 89l-12-46z" fill="#f4f0df" opacity=".9"/>
+    <path d="M198 221c14-19 33-29 54-28l-12 23-43 23zm87-28c22-1 42 9 57 28l1 18-45-23z" fill="#354454"/>
+    <ellipse cx="220" cy="252" rx="18" ry="23" fill="#f5c84f"/><ellipse cx="318" cy="252" rx="18" ry="23" fill="#f5c84f"/>
+    <ellipse cx="223" cy="253" rx="5" ry="14" fill="#111a25"/><ellipse cx="315" cy="253" rx="5" ry="14" fill="#111a25"/>
+    <circle cx="228" cy="246" r="4" fill="#fff9dc"/><circle cx="320" cy="246" r="4" fill="#fff9dc"/>
+    <path d="M253 271c11-12 23-16 35-12l17 17-16 24c-8 13-15 21-24 19-5-1-8-7-5-14l9-23z" fill="url(#beak)" stroke="#684329" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M255 291c-17 11-27 23-31 38 17-4 32-11 47-20" fill="none" stroke="#8b6146" stroke-width="5" stroke-linecap="round"/>
+    <path d="M203 322c18 18 35 27 52 29m64-29c-18 18-35 27-52 29" fill="none" stroke="#8d9ca0" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#e7fff1" stroke-opacity=".63" stroke-width="3"><path d="M71 222c-14 65-9 113 16 155"/><path d="M408 222c15 65 9 113-16 155"/></g>
+  <path d="M73 84h22m-11-11v22M393 103h20m-10-10v20" stroke="#fff3bf" stroke-width="4" stroke-linecap="round"/>
+</svg>

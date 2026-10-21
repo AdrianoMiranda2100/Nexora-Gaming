@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-labelledby="title desc">
+  <title id="title">Tigre do João</title>
+  <desc id="desc">Retrato vetorial estilizado de um tigre, com pelagem laranja, listras escuras, olhos âmbar e focinho claro.</desc>
+  <defs>
+    <radialGradient id="tiger-sky" cx="32%" cy="22%"><stop stop-color="#fff1bf"/><stop offset=".48" stop-color="#ffc16c"/><stop offset="1" stop-color="#ba5d3b"/></radialGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffcb6b"/><stop offset=".44" stop-color="#ee8b38"/><stop offset="1" stop-color="#ad482b"/></linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#fff8df"/><stop offset="1" stop-color="#d9cbb0"/></linearGradient>
+    <filter id="shadow" x="-.2" y="-.2" width="1.4" height="1.5"><feDropShadow dx="0" dy="17" stdDeviation="15" flood-color="#62351d" flood-opacity=".3"/></filter>
+  </defs>
+  <rect width="480" height="480" rx="58" fill="#2d2331"/>
+  <circle cx="240" cy="229" r="213" fill="url(#tiger-sky)"/>
+  <circle cx="240" cy="229" r="184" fill="none" stroke="#fff7e6" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M54 379c51-75 114-110 186-110s135 35 186 110v101H54z" fill="#432f33" opacity=".56"/>
+  <g filter="url(#shadow)">
+    <path d="M130 184 98 112l79 23 63-72 62 72 81-23-33 77c16 35 18 91-1 132-22 47-58 75-109 84-50-9-88-39-109-85-18-39-16-94-1-136z" fill="url(#orange)" stroke="#fff0d6" stroke-opacity=".7" stroke-width="5" stroke-linejoin="round"/>
+    <path d="m116 138 65 25-13 37-52-22zm248 0-65 25 13 37 52-22zM191 119l34 35-23 30-32-53zm98 0-34 35 23 30 32-53z" fill="#302635"/>
+    <path d="M197 175c15-20 29-36 43-47 14 11 29 27 43 47l-19 25h-48z" fill="#302635"/>
+    <path d="M167 220c20-26 43-37 70-34l-11 31-56 27zm146 0c-20-26-43-37-70-34l11 31 56 27z" fill="#342733"/>
+    <path d="M174 251c16-15 33-21 53-18 15 2 25 12 32 26-8 17-24 26-43 28-19-1-34-12-42-36zm132 0c-16-15-33-21-53-18-15 2-25 12-32 26 8 17 24 26 43 28 19-1 34-12 42-36z" fill="#f6d98d"/>
+    <ellipse cx="222" cy="255" rx="7" ry="13" fill="#9fdc83"/><ellipse cx="290" cy="255" rx="7" ry="13" fill="#9fdc83"/>
+    <ellipse cx="223" cy="256" rx="3" ry="9" fill="#171923"/><ellipse cx="289" cy="256" rx="3" ry="9" fill="#171923"/>
+    <circle cx="224" cy="251" r="2.5" fill="#fff"/><circle cx="290" cy="251" r="2.5" fill="#fff"/>
+    <path d="M229 303c-19 4-36 17-44 34 12 22 32 34 55 36l20-20 20 20c23-2 43-14 55-36-8-17-25-30-44-34l-31 13z" fill="url(#cream)"/>
+    <path d="M249 302c3-11 11-16 21-16 10 0 18 5 21 16l-21 16z" fill="#663b3c"/>
+    <path d="M270 318v20m0 0c-6 11-14 16-25 16m25-16c6 11 14 16 25 16" fill="none" stroke="#5b3b39" stroke-width="5" stroke-linecap="round"/>
+    <path d="M181 320c-27-4-40-2-54 5m56 8c-26 1-38 7-49 17m165-30c27-4 40-2 54 5m-56 8c26 1 38 7 49 17" fill="none" stroke="#fff5de" stroke-opacity=".92" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <path d="M72 86h22m-11-11v22M391 91h20m-10-10v20" stroke="#e9fff0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="89" cy="320" r="5" fill="#d9ffd3"/><circle cx="390" cy="338" r="5" fill="#d9ffd3"/>
+</svg>
